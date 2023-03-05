@@ -1,0 +1,133 @@
+body {
+    color: #595768;
+    background-color: #e3e0f5;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.section {
+    overflow: auto;
+    padding: 50px 15%;
+}
+
+.hlavicka {
+    background-image: url(fotky/hlavicka_pozadi.png);
+    padding: 80px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.foto-omne {
+width: 220px;
+border-radius: 50%;
+border: 7px solid #9592ad;
+float: left;
+margin: 0 30px 0 0;
+}
+
+a {
+    color: #84819b;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    color: #84819b;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+h2 {
+    color: #84819b;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #84819b;
+    font-size: 18px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #9592ad;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-style: normal;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #7e7b93;
+}
+
+section {
+    overflow: auto;
+    padding: 50px 15%;
+}
+
+.paticka {
+    background-color: #9592ad;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+}
+
+table {
+    border-spacing: 0;
+    padding: 5px 5px;
+    text-align: left;
+}
+
+.tabulka th {
+    border-bottom: 1px solid #3c4046;
+    text-align: left;
+}
+
+.odsazeni {
+    padding-right: 40px;
+}
+
+.omne,
+.kontakt {
+    background-color: #eae9f5;
+}
+
+.foto-dovednosti {
+    width: 300px;
+    border-radius: 15px;
+    float: right;
+    margin: 0 0px 50px 50px;
+    border: 5px solid white;
+}
+
+.foto-kontakt {
+    width: 300px;
+    border-radius: 15px;
+    float: left;
+    margin: 0 50px 50px 0;
+    border: 5px solid white;
+}
